@@ -75,8 +75,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Certifications"
 
         [[params.hobbies.list]]
-        interest = "Travelling"
-		
+        interest = "[Certified Kubernetes Administrator](https://www.youracclaim.com/badges/36f5731a-33ad-4dab-ad46-f12cdf3b6706)"
+
 	[[params.hobbies.list]]
         interest = "Music"
 
