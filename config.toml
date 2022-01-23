@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://christianh814.github.io/chernand.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Christian Hernandez'
 theme = "sada"
 publishDir = "docs"
 disableKinds = ["taxonomy", "taxonomyTerm"]
