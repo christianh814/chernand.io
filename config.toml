@@ -117,14 +117,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Open Source"
 
         [[params.projects.list]]
-        title = "OpenGitOps"
-        url = "#"
-        description = "Description of the *awesome* project 1"
+        title = "OpenGitOps - Maintainer"
+        url = "https://opengitops.dev/"
+        description = "The OpenGitOps Working Group is a CNCF initiative to establish and promote standards around GitOps. As a member of the events committee, I help organize GitOpsCon. I also help with the social media promotion. As a maintainer, I help review and merge pull requests and updates. "
 		
 	[[params.projects.list]]
-        title = "ArgoProj"
-        url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        title = "ArgoProj Marketing Committee Member"
+        url = "https://argoproj.github.io/"
+        description = "The Argo Project is the umbrella project where all Argo related technologies are governed. This includes technologies such as Argo CD, Argo Workflows, Argo Rollouts, and Argo Events. As a member of the marketing committee, I help with marketing related materials and events such as ArgoCon. I also help with the social media promotion."
 
     # Skills section
     [params.skills]
