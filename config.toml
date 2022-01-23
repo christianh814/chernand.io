@@ -95,6 +95,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Experiences section
     [params.experiences]
         title = "Experiences"
+        resumelink = "#"
 
         [[params.jobs.list]]
         position = "Senior Principal Technical Marketing Manager"
