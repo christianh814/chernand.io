@@ -78,13 +78,16 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         interest = "[Certified Kubernetes Administrator](https://www.youracclaim.com/badges/36f5731a-33ad-4dab-ad46-f12cdf3b6706)"
 
 	[[params.hobbies.list]]
-        interest = "Music"
+        interest = "[GitOps Certified for Argo](images/christian-hernandez-certificate-gitops-fundamentals.pdf)"
 
         [[params.hobbies.list]]
-        interest = "Flying"
+        interest = "[Red Hat Certified Specialist](https://rhtapps.redhat.com/verify/?certId=110-326-071)"
 
         [[params.hobbies.list]]
-        interest = "Baking"
+        interest = "Cisco CCNA"
+
+        [[params.hobbies.list]]
+        interest = "CompTIA: A+, Network+, Linux+"
 
     [params.aboutme]
         description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
@@ -94,17 +97,20 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Job Number 1"
-        dates = "2018 - *Present*"
-		link = "#"
-        company = "Company name 1"
+        position = "Senior Principal Technical Marketing Manager"
+        dates = "September 2014 - *Present*"
+	link = "https://www.redhat.com/"
+        company = "Red Hat"
+        details = "As a Technical Marketing Manager for Red Hat's OpenShift Kubernetes Platform, I am responsible for technically related internal and external facing tools and collateral that will help Red Hat accelerate adoption of its cloud-native strategies. I work with Product Management and Product Marketing to develop our go to market strategy for OpenShift GitOps, evangelize OpenShift and OpenShift GitOps by the way of blogs, videos, workshops, and streams."
+        otherstuff = "_Other Positions Held: Principal Technical Marketing Manager, Senior Specialist Solution Architect, Associate Specialist Solution Architect_"
 
         [[params.jobs.list]]
         position = "Job Number 2"
         dates = "2016 - 2018"
-		link = "#"
+	link = "#"
         company = "Company name 2"
         details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        otherstuff = "_hello_"
 
     # Projects section
     [params.projects]
@@ -125,13 +131,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "Skill 1, Skill 2"
-        skillrating = 95 # out of 100
+        skill = "**Enterprise Architecture**"
+        skillrating = "System Adminsitration, Network Administration, Storage, Databases, Load Balancing, and Disaster Recovery" # out of 100
                 
         [[params.skills.list]]
-        skill = "Skill 3"
-        skillrating = 90
+        skill = "**Programming/Development**"
+        skillrating = "Golang, NodeJS, Javascript, PHP, and advanced Shell Scripting"
 		
         [[params.skills.list]]
-        skill = "Skill 4"
-        skillrating = 80
+        skill = "**DevOps**"
+        skillrating = "AWS and Azure cloud, automation with Ansible and Chef, Kubernetes, Helm, Argo CD, advanced CI/CD practices with GitOps"

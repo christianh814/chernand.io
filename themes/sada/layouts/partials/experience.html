@@ -11,5 +11,6 @@
     {{ else }}{{ .company }}{{ end }} &middot; {{ .dates | markdownify }}
   </p>
   <p class="ml-2 mb-0">{{ .details | markdownify }}</p>
+  <p class="ml-2 mb-0">{{ .otherstuff | markdownify }}</p>
   {{ end }}
 </div>
