@@ -1,0 +1,144 @@
+baseURL = 'https://christianh814.github.io/chernand.io'
+languageCode = 'en-us'
+title = 'Christian Hernandez'
+theme = "sada"
+publishDir = "docs"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    name = "All About Christian Hernandez"
+    title = "chernand.io"
+    author = "Christian Hernandez"
+    description = "Summary"
+    copyright = "Copyright 2022"
+    theme = "dark" # `dark` or `light`
+    useResources = false
+
+    # Profile section
+    [params.profile]
+        name = "Christian Hernandez"
+        photo = "images/profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin-in"
+        url = "https://www.linkedin.com/in/chernandez1982/"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/christianh814"
+        title = "GitHub"
+		
+        [[params.social.list]]
+        icon = "fab fa-twitter"
+        url = "https://twitter.com/christianh814"
+        title = "Twitter"
+		
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Masters in Degree 1"
+        college = "University Number 1"
+        dates = "2016 - 2018"
+        thesis_title = "Title of the dissertation"
+        thesis_link = "#"
+
+        [[params.education.list]]
+        degree = "Bachelors in Degree 2"
+        college = "University Number 2"
+        dates = "2010 - 2014"
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Fluent"
+				
+        [[params.language.list]]
+        language = "Spanish"
+        level = "Intermediate"
+
+        [[params.language.list]]
+        language = "German"
+        level = "Intermediate"
+
+    # Interests section
+    [params.hobbies]
+        title = "Certifications"
+
+        [[params.hobbies.list]]
+        interest = "[Certified Kubernetes Administrator](https://www.youracclaim.com/badges/36f5731a-33ad-4dab-ad46-f12cdf3b6706)"
+
+	[[params.hobbies.list]]
+        interest = "[GitOps Certified for Argo](images/christian-hernandez-certificate-gitops-fundamentals.pdf)"
+
+        [[params.hobbies.list]]
+        interest = "[Red Hat Certified Specialist](https://rhtapps.redhat.com/verify/?certId=110-326-071)"
+
+        [[params.hobbies.list]]
+        interest = "Cisco CCNA"
+
+        [[params.hobbies.list]]
+        interest = "CompTIA: A+, Network+, Linux+"
+
+    [params.aboutme]
+        description = "Technologist with experience in enterprise architecture, DevOps, tech support, advocacy, software engineering, and management. Passionate about OpenSource and Cloud-Native Architecture. Lately I've been focusing on Kubernetes, DevOps, and GitOps practices."
+
+    # Experiences section
+    [params.experiences]
+        title = "Experiences"
+        resumelink = "#"
+
+        [[params.jobs.list]]
+        position = "Senior Principal Technical Marketing Manager"
+        dates = "September 2014 - *Present*"
+	link = "https://www.redhat.com/"
+        company = "Red Hat"
+        details = "As a Technical Marketing Manager for Red Hat's OpenShift Kubernetes Platform, I am responsible for technically related internal and external facing tools and collateral that will help Red Hat accelerate adoption of its cloud-native strategies. I work with Product Management and Product Marketing to develop our go to market strategy for OpenShift GitOps, evangelize OpenShift and OpenShift GitOps by the way of blogs, videos, workshops, and streams."
+        otherstuff = "_Other Positions Held: Principal Technical Marketing Manager, Senior Specialist Solution Architect, Associate Specialist Solution Architect_"
+
+        [[params.jobs.list]]
+        position = "Job Number 2"
+        dates = "2016 - 2018"
+	link = "#"
+        company = "Company name 2"
+        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        otherstuff = "_hello_"
+
+    # Projects section
+    [params.projects]
+        title = "Open Source"
+
+        [[params.projects.list]]
+        title = "OpenGitOps - Maintainer"
+        url = "https://opengitops.dev/"
+        description = "The OpenGitOps Working Group is a CNCF initiative to establish and promote standards around GitOps. As a member of the events committee, I help organize GitOpsCon. I also help with the social media promotion. As a maintainer, I help review and merge pull requests and updates. "
+		
+	[[params.projects.list]]
+        title = "ArgoProj Marketing Committee Member"
+        url = "https://argoproj.github.io/"
+        description = "The Argo Project is the umbrella project where all Argo related technologies are governed. This includes technologies such as Argo CD, Argo Workflows, Argo Rollouts, and Argo Events. As a member of the marketing committee, I help with marketing related materials and events such as ArgoCon. I also help with the social media promotion."
+
+    # Skills section
+    [params.skills]
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "**Enterprise Architecture**"
+        skillrating = "System Adminsitration, Network Administration, Storage, Databases, Load Balancing, and Disaster Recovery" # out of 100
+                
+        [[params.skills.list]]
+        skill = "**Programming/Development**"
+        skillrating = "Golang, NodeJS, Javascript, PHP, and advanced Shell Scripting"
+		
+        [[params.skills.list]]
+        skill = "**DevOps**"
+        skillrating = "AWS and Azure cloud, automation with Ansible and Chef, Kubernetes, Helm, Argo CD, advanced CI/CD practices with GitOps"
