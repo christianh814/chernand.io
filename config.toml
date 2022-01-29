@@ -106,9 +106,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         otherstuff = "_Other Positions Held: Principal Technical Marketing Manager, Senior Specialist Solution Architect, Associate Specialist Solution Architect_"
 
         [[params.jobs.list]]
-        position = "Job Number 2"
+        position = "4over, Inc"
         dates = "2016 - 2018"
-	link = "#"
+	link = "https://4over.com/"
         company = "Company name 2"
         details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         otherstuff = "_hello_"
