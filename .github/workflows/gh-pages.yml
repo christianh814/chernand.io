@@ -9,8 +9,6 @@ on:
   push:
     branches: [ main ]
 
-PUBLISH_BRANCH: main
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "deploy"
@@ -51,7 +49,7 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           allow_empty_commit: true
           publish_branch: main
           publish_dir: ./docs
