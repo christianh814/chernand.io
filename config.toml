@@ -10,7 +10,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     title = "chernand.io"
     author = "Christian Hernandez"
     description = "Summary"
-    copyright = "Copyright 2022"
+    ###copyright = "Copyright 2022"
+    copyright = "GH WORKFLOW TEST"
     theme = "dark" # `dark` or `light`
     useResources = false
 
