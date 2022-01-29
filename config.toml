@@ -11,7 +11,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     author = "Christian Hernandez"
     description = "Summary"
     ###copyright = "Copyright 2022"
-    copyright = "GH WORKFLOW TEST !!!!!!"
+    copyright = "GH WORKFLOW TEST !!!!!!3"
     theme = "dark" # `dark` or `light`
     useResources = false
 
