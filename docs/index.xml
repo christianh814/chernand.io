@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Christian Hernandez</title>
-    <link>https://christianh814.github.io/chernand.io/</link>
+    <link>https://chernand.io/</link>
     <description>Recent content on Christian Hernandez</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://christianh814.github.io/chernand.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://chernand.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
