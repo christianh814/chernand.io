@@ -11,7 +11,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     author = "Christian Hernandez"
     description = "Summary"
     copyright = "Copyright 2022"
-    theme = "dark" # `dark` or `light`
+    theme = "light" # `dark` or `light`
     useResources = false
 
     # Profile section
