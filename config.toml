@@ -38,6 +38,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         url = "https://twitter.com/christianh814"
         title = "Twitter"
 		
+        [[params.social.list]]
+        icon = "fab fa-youtube"
+        url = "https://github.com/christianh814/vid-playlists"
+        title = "YouTube"
+		
     # Education section
     [params.education]
         title = "Education"
