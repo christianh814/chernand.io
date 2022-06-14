@@ -100,7 +100,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         dates = "June 2022 - *Present*"
 	link = "https://codefresh.io/"
         company = "Codefresh"
-        details = "Spearhead open-source innovation and collaboration initiatives, delivering valuable contributions to the Argo Project, OpenGitOps, and build/cultivate Codefresh’s developer enablement programs. Grow and solidify Codefresh's open-source foot print in those respective communities."
+        details = "Spearhead open-source innovation and collaboration initiatives, delivering valuable contributions to the Argo Project, OpenGitOps, and build/cultivate Codefresh’s developer enablement programs. Help build, guide, and strengthen Codefresh’s open-source commitments and developer engagement by solidifying Codefresh's open-source footprint in those respective communities."
 
         [[params.jobs.list]]
         position = "Senior Principal Technical Marketing Manager"
