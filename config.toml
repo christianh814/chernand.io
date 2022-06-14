@@ -96,8 +96,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         resumelink = "https://www.linkedin.com/in/chernandez1982/"
 
         [[params.jobs.list]]
+        position = "Head of Developer Experience and Community Management"
+        dates = "June 2022 - *Present*"
+	link = "https://codefresh.io/"
+        company = "Codefresh"
+        details = "Spearhead open-source innovation and collaboration initiatives, delivering valuable contributions to the Argo Project, OpenGitOps, and build/cultivate Codefresh’s developer enablement programs. Grow and solidify Codefresh's open-source foot print in those respective communities."
+
+        [[params.jobs.list]]
         position = "Senior Principal Technical Marketing Manager"
-        dates = "September 2014 - *Present*"
+        dates = "September 2014 - June 2022"
 	link = "https://www.redhat.com/"
         company = "Red Hat"
         details = "As a Technical Marketing Manager for Red Hat's OpenShift Kubernetes Platform, I am responsible for technically related internal and external facing tools and collateral that will help Red Hat accelerate adoption of its cloud-native strategies. I work with Product Management and Product Marketing to develop our go to market strategy for OpenShift GitOps (Red Hat's Argo CD offering), evangelize OpenShift and OpenShift GitOps by the way of blogs, videos, workshops, and streams."
