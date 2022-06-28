@@ -88,7 +88,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         interest = "CompTIA: A+, Network+, Linux+"
 
     [params.aboutme]
-        description = "Technologist with experience in enterprise architecture, DevOps, tech support, advocacy, software engineering, and management. Passionate about OpenSource and Cloud-Native Architecture. Lately I've been focusing on Kubernetes, DevOps, and GitOps practices."
+        description = "Technologist with experience in enterprise architecture, DevOps, tech support, advocacy, software engineering, and management. Passionate about OpenSource and Cloud-Native Architecture. I am an OpenGitOps Maintainer and an Argo Project Marketing SIG memeber. Lately I've been focusing on Kubernetes, DevOps, and GitOps practices."
 
     # Experiences section
     [params.experiences]
