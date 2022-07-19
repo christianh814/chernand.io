@@ -48,6 +48,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         url = "https://github.com/christianh814/vid-playlists/tree/main/blogs"
         title = "Blogs"
 		
+        [[params.social.list]]
+        icon = "fa fa-book"
+        url = "https://developers.redhat.com/e-books/path-gitops"
+        title = "Books"
+		
     # Education section
     [params.education]
         title = "Education"
