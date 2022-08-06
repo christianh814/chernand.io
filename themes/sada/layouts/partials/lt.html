@@ -1,0 +1,4 @@
+<h3>{{ .Site.Params.lt.title }}</h3>
+{{ range .Site.Params.lt.list }}
+<p class="ml-1"><a href="{{ .url }}"><i class="{{ .icon }} text-2xl py-1 px-2 m-1 rounded hover:bg-gray-300 dark:hover:bg-dark3"></i> {{ .site }}</a></p>
+{{ end }}
