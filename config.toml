@@ -107,8 +107,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         resumelink = "https://www.linkedin.com/in/chernandez1982/"
 
         [[params.jobs.list]]
+        position = "Senior Principal Product Manager"
+        dates = "October 2022 - *Present*"
+	link = "https://www.redhat.com/"
+        company = "Red Hat"
+        details = "Senior Principal Technical Product Manager in the Cloud Services Business Unit"
+
+        [[params.jobs.list]]
         position = "Head of Developer Experience and Community Management"
-        dates = "June 2022 - *Present*"
+        dates = "June 2022 - October 2022"
 	link = "https://codefresh.io/"
         company = "Codefresh"
         details = "Spearhead open-source innovation and collaboration initiatives, delivering valuable contributions to the Argo Project, OpenGitOps, and build/cultivate Codefresh’s developer enablement programs. Help build, guide, and strengthen Codefresh’s open-source commitments and developer engagement by solidifying Codefresh's open-source footprint in those respective communities."
