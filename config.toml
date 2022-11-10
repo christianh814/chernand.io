@@ -64,6 +64,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         site = "Twitter"
 		
         [[params.lt.list]]
+        icon = "fab fa-mastodon"
+        url = "https://hachyderm.io/@christianh814"
+        site = "Mastodon"
+		
+        [[params.lt.list]]
         icon = "fab fa-youtube"
         url = "https://github.com/christianh814/vid-playlists/tree/main/videos"
         site = "YouTube"
