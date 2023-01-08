@@ -92,7 +92,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         interest = "[Certified Kubernetes Administrator](https://www.youracclaim.com/badges/36f5731a-33ad-4dab-ad46-f12cdf3b6706)"
 
 	[[params.hobbies.list]]
-        interest = "[GitOps Certified for Argo](images/christian-hernandez-certificate-gitops-fundamentals.pdf)"
+        interest = "[GitOps Fundamentals Certified for Argo](images/christian-hernandez-certificate-gitops-fundamentals.pdf)"
+
+	[[params.hobbies.list]]
+        interest = "[GitOps at Scale Certified for Argo](images/christian-hernandez-certificate-gitops-at-scale.pdf)"
 
         [[params.hobbies.list]]
         interest = "[Red Hat Certified Specialist](https://rhtapps.redhat.com/verify/?certId=110-326-071)"
