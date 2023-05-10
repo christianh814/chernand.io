@@ -64,6 +64,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         site = "Twitter"
 		
         [[params.lt.list]]
+        icon = "fa fa-cloud"
+        url = "https://bsky.app/profile/christianh814.bsky.social"
+        site = "BlueSky Social"
+		
+        [[params.lt.list]]
         icon = "fab fa-mastodon"
         url = "https://hachyderm.io/@christianh814"
         site = "Mastodon"
