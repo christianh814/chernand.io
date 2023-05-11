@@ -100,6 +100,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         interest = "[GitOps Fundamentals Certified for Argo](images/christian-hernandez-certificate-gitops-fundamentals.pdf)"
 
 	[[params.hobbies.list]]
+        interest = "[Introduction to Continuous Delivery and GitOps using Argo CD](https://www.credential.net/542a9965-1799-4f49-9f42-e9b0f37b8ecf)"
+
+	[[params.hobbies.list]]
         interest = "[GitOps at Scale Certified for Argo](images/christian-hernandez-certificate-gitops-at-scale.pdf)"
 
         [[params.hobbies.list]]
