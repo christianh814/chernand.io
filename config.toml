@@ -123,11 +123,18 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         resumelink = "https://www.linkedin.com/in/chernandez1982/"
 
         [[params.jobs.list]]
+        position = "Head of Community Engineering"
+        dates = "June 2023 - *Present*"
+	link = "https://akuity.io"
+        company = "Akuity"
+        details = "Communicate Akuity's unique and innovative worldview and approach to the world of engineers and engage with users to solve complex problems and create scale by sharing these solutions with software engineers and platform engineers globally. In addition to engaging deeply with the community, I also work closely with Akuity’s product and engineering teams to ensure that the needs of the community are always served by Akuity's Enterprise for Argo platform."
+
+        [[params.jobs.list]]
         position = "Senior Principal Product Manager"
-        dates = "October 2022 - *Present*"
+        dates = "October 2022 - June 2023"
 	link = "https://www.redhat.com/"
         company = "Red Hat"
-        details = "Senior Principal Technical Product Manager in the Cloud Services Business Unit"
+        details = "Senior Principal Technical Product Manager in the Cloud Services Business Unit. Focused on Red Hat's Secure Supply Chain products including Red Hat Trusted Content and Red Hat Trused Application Pipeline."
 
         [[params.jobs.list]]
         position = "Head of Developer Experience and Community Management"
