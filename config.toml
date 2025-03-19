@@ -127,7 +127,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         dates = "June 2023 - *Present*"
 	link = "https://akuity.io"
         company = "Akuity"
-        details = "Communicate Akuity's unique and innovative worldview and approach to the world of engineers and engage with users to solve complex problems and create scale by sharing these solutions with software engineers and platform engineers globally. In addition to engaging deeply with the community, I also work closely with Akuity’s product and engineering teams to ensure that the needs of the community are always served by Akuity's Enterprise for Argo platform."
+        details = "Responsible for developing and executing Akuity's OpenSource strategy. Lead a team of DevRel, Community specialists and OpenSource Engineers to promote Akuity's platform and OpenSource contributions. Communicate Akuity's unique and innovative worldview and approach to the world of engineers and engage with users to solve complex problems and create scale by sharing these solutions with software engineers and platform engineers globally. In addition to engaging deeply with the community, I also work closely with Akuity’s product and engineering teams to ensure that the needs of the community are always served by Akuity's Enterprise for Argo platform."
 
         [[params.jobs.list]]
         position = "Senior Principal Product Manager"
