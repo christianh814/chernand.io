@@ -4,7 +4,8 @@
     <title>Christian Hernandez</title>
     <link>https://chernand.io/</link>
     <description>Recent content on Christian Hernandez</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://chernand.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://chernand.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

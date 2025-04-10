@@ -5,6 +5,10 @@ theme = "sada"
 publishDir = "docs"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
     name = "All About Christian Hernandez"
     title = "chernand.io"
