@@ -101,22 +101,22 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         interest = "[NVIDIA Certified Associate: AI Infrastructure and Operations](https://www.credly.com/badges/f319d5d0-37e0-41ca-9033-e539dcd23b5d/public_url)"
 
         [[params.hobbies.list]]
-        interest = "[Certified Kubernetes Administrator](https://www.youracclaim.com/badges/36f5731a-33ad-4dab-ad46-f12cdf3b6706)"
+        interest = "[Red Hat Certified Specialist](https://rhtapps.redhat.com/verify/?certId=110-326-071)"
+
+        [[params.hobbies.list]]
+        interest = "[Certified Kubernetes Administrator](https://www.credly.com/badges/deb85a40-1236-417c-82e5-8dff428771e8/public_url)"
 
 	[[params.hobbies.list]]
-        interest = "[GitOps Fundamentals Certified for Argo](images/christian-hernandez-certificate-gitops-fundamentals.pdf)"
+        interest = "[GitOps at Scale Certified for Argo](https://www.credly.com/badges/7503b054-e1f2-4a91-b2ba-0fcbe6f0b652/public_url)"
+
+	[[params.hobbies.list]]
+        interest = "[GitOps Fundamentals Certified for Argo](https://www.credly.com/badges/f19bb016-4d82-47ba-ae22-d230b97a00f6/public_url)"
 
 	[[params.hobbies.list]]
         interest = "[Introduction to Continuous Delivery and GitOps using Argo CD](https://www.credential.net/542a9965-1799-4f49-9f42-e9b0f37b8ecf)"
 
-	[[params.hobbies.list]]
-        interest = "[GitOps at Scale Certified for Argo](images/christian-hernandez-certificate-gitops-at-scale.pdf)"
-
         [[params.hobbies.list]]
-        interest = "[Red Hat Certified Specialist](https://rhtapps.redhat.com/verify/?certId=110-326-071)"
-
-        [[params.hobbies.list]]
-        interest = "Cisco CCNA"
+        interest = "[Cisco CCNA](https://www.credly.com/badges/1790a432-6dd2-4905-ac2a-44a9d6b1aad1/public_url)"
 
         [[params.hobbies.list]]
         interest = "CompTIA: A+, Network+, Linux+"
