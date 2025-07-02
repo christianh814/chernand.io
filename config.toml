@@ -63,24 +63,24 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         site = "GitHub"
 		
         [[params.lt.list]]
-        icon = "fab fa-twitter"
-        url = "https://twitter.com/christianh814"
-        site = "Twitter"
-		
-        [[params.lt.list]]
         icon = "fa fa-cloud"
         url = "https://bsky.app/profile/christianh814.bsky.social"
         site = "BlueSky Social"
 		
         [[params.lt.list]]
-        icon = "fab fa-mastodon"
-        url = "https://hachyderm.io/@christianh814"
-        site = "Mastodon"
-		
+        icon = "fab fa-twitter"
+        url = "https://twitter.com/christianh814"
+        site = "Twitter"
+
         [[params.lt.list]]
         icon = "fab fa-youtube"
-        url = "https://github.com/christianh814/vid-playlists/tree/main/videos"
-        site = "YouTube"
+        url = "https://www.youtube.com/playlist?list=PLvuF36Z5jU-OL0A-j_Gfdx03K2iXg_k2C"
+        site = "Presentations and Keynotes"
+	
+        [[params.lt.list]]
+        icon = "fab fa-youtube"
+        url = "https://www.youtube.com/playlist?list=PLvuF36Z5jU-OHDLOT0KgN2x1s9CK8coac"
+        site = "Demos and Webinars"
 		
         [[params.lt.list]]
         icon = "fas fa-file-alt"
@@ -89,7 +89,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 		
         [[params.lt.list]]
         icon = "fa fa-book"
-        url = "https://developers.redhat.com/e-books/path-gitops"
+        url = "https://www.oreilly.com/library/view/argo-cd-up/9781098141998/"
         site = "Books"
 	
 
