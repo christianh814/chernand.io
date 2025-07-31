@@ -98,6 +98,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Certifications"
 
         [[params.hobbies.list]]
+        interest = "[NVIDIA Certified Professional: AI Operations](https://www.credly.com/badges/0acc664b-27b6-4267-a278-0e8db949a7ba/public_url)"
+
+        [[params.hobbies.list]]
         interest = "[NVIDIA Certified Associate: AI Infrastructure and Operations](https://www.credly.com/badges/f319d5d0-37e0-41ca-9033-e539dcd23b5d/public_url)"
 
         [[params.hobbies.list]]
