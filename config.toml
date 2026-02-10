@@ -133,8 +133,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         resumelink = "https://www.linkedin.com/in/chernandez1982/"
 
         [[params.jobs.list]]
+        position = "Technical Marketing Engineer and Tech Lead"
+        dates = "October 2025 - *Present*"
+	link = "https://www.cisco.com/"
+        company = "Cisco"
+        details = "Technical Marketing Engineer on Cisco's Isovalent team, driving cloud-native networking and security adoption through hands-on content and demos with Cilium and Tetragon. Create blogs, labs, videos, and guides that educate DevOps, NetOps, and SecOps practitioners while enabling partners and customers. Collaborate closely with product and engineering teams to research real-world use cases, drive go to market strategy, and help shape product updates. Deliver workshops, webinars, and conference sessions that translate complex technical capabilities into practical guidance that informs both technical and business decisions."
+
+        [[params.jobs.list]]
         position = "Head of Community Engineering"
-        dates = "June 2023 - *Present*"
+        dates = "June 2023 - July 2025"
 	link = "https://akuity.io"
         company = "Akuity"
         details = "Responsible for developing and executing Akuity's OpenSource strategy. Lead a team of DevRel, Community specialists and OpenSource Engineers to promote Akuity's platform and OpenSource contributions. Communicate Akuity's unique and innovative worldview and approach to the world of engineers and engage with users to solve complex problems and create scale by sharing these solutions with software engineers and platform engineers globally. In addition to engaging deeply with the community, I also work closely with Akuity’s product and engineering teams to ensure that the needs of the community are always served by Akuity's Enterprise for Argo platform."
