@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Christian Hernandez'
 theme = "sada"
 publishDir = "docs"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 
 [caches]
   [caches.images]
