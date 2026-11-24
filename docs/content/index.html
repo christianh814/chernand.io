@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" class="light"><head>
+  <title>chernand.io</title>
+
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="Summary" />
+  <meta name="author" content="Christian Hernandez" />
+
+  
+    <link rel="stylesheet" href="/css/main.min.css" />
+
+
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+</head>
+<body class="max-w-screen-md mx-auto prose dark:prose-dark px-2 pb-4 bg-gray-100 dark:bg-dark1 duration-250"><header class="flex flex-row justify-between items-center my-2">
+  <i>All About Christian Hernandez</i>
+  <i
+    class="toggle-theme cursor-pointer fas fa-moon text-gray-600 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+    onclick="toggleTheme(this)"
+  ></i>
+</header>
+
+<script>
+  const toggleTheme = (el) => {
+    const html = document.querySelector("html");
+    if (el.classList.contains("fa-moon")) {
+      el.classList.remove("fa-moon");
+      el.classList.add("fa-sun");
+      html.classList.add("dark");
+    } else {
+      el.classList.remove("fa-sun");
+      el.classList.add("fa-moon");
+      html.classList.remove("dark");
+    }
+  };
+</script>
+<main class="flex sm:flex-row-reverse flex-row flex-wrap">
+
+<style>
+  .tab {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border: 1px solid #d1d5db;
+    border-bottom: none;
+    border-radius: 0.25rem 0.25rem 0 0;
+    background-color: #e5e7eb;
+  }
+  .tab button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+  }
+  .tab button:hover {
+    background-color: #d1d5db;
+  }
+  .tab button.active {
+    background-color: #f3f4f6;
+    font-weight: 600;
+  }
+  .tabcontent {
+    display: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5db;
+    border-top: none;
+    border-radius: 0 0 0.25rem 0.25rem;
+  }
+  html.dark .tab {
+    background-color: #2d3748;
+    border-color: #4a5568;
+  }
+  html.dark .tab button:hover {
+    background-color: #4a5568;
+  }
+  html.dark .tab button.active {
+    background-color: #202124;
+  }
+  html.dark .tabcontent {
+    border-color: #4a5568;
+  }
+</style>
+
+<section class="w-full px-3">
+  <p class="mb-0"><a href="/"><i class="fas fa-arrow-left"></i> Home</a></p>
+  <h1 class="mt-4">Content</h1>
+  <div>A collection of the demos, webinars, presentations, blogs, and books I&rsquo;ve worked on over the years. Most of it is centered around Kubernetes, GitOps, cloud-native networking, and security. Pick a tab below to browse.</div>
+
+  
+  <div class="tab mt-6" role="tablist">
+    
+    <button class="tablinks" role="tab" data-tab="demos" onclick="openTab(this.dataset.tab)">Demos</button>
+    
+    <button class="tablinks" role="tab" data-tab="webinars" onclick="openTab(this.dataset.tab)">Webinars</button>
+    
+    <button class="tablinks" role="tab" data-tab="presentations" onclick="openTab(this.dataset.tab)">Presentations</button>
+    
+    <button class="tablinks" role="tab" data-tab="blogs" onclick="openTab(this.dataset.tab)">Blogs</button>
+    
+    <button class="tablinks" role="tab" data-tab="books" onclick="openTab(this.dataset.tab)">Books</button>
+    
+  </div>
+  
+  <div id="demos" class="tabcontent" role="tabpanel">
+    
+    <ul>
+      
+      <li>
+        <a href="https://www.youtube.com/playlist?list=PLvuF36Z5jU-OHDLOT0KgN2x1s9CK8coac" target="_blank" rel="noopener">Demos and Webinars Playlist</a>
+         &mdash; YouTube playlist of my demos and webinars.
+      </li>
+      
+    </ul>
+    
+  </div>
+  
+  <div id="webinars" class="tabcontent" role="tabpanel">
+    
+    <ul>
+      
+      <li>
+        <a href="https://www.youtube.com/playlist?list=PLvuF36Z5jU-OHDLOT0KgN2x1s9CK8coac" target="_blank" rel="noopener">Demos and Webinars Playlist</a>
+         &mdash; YouTube playlist of my demos and webinars.
+      </li>
+      
+    </ul>
+    
+  </div>
+  
+  <div id="presentations" class="tabcontent" role="tabpanel">
+    
+    <ul>
+      
+      <li>
+        <a href="https://www.youtube.com/playlist?list=PLvuF36Z5jU-OL0A-j_Gfdx03K2iXg_k2C" target="_blank" rel="noopener">Presentations and Keynotes Playlist</a>
+         &mdash; YouTube playlist of conference talks and keynotes.
+      </li>
+      
+    </ul>
+    
+  </div>
+  
+  <div id="blogs" class="tabcontent" role="tabpanel">
+    
+    <ul>
+      
+      <li>
+        <a href="https://github.com/christianh814/vid-playlists/tree/main/blogs" target="_blank" rel="noopener">Blog Index</a>
+         &mdash; Index of blogs I&rsquo;ve written across various sites.
+      </li>
+      
+    </ul>
+    
+  </div>
+  
+  <div id="books" class="tabcontent" role="tabpanel">
+    
+    <ul>
+      
+      <li>
+        <a href="https://www.oreilly.com/library/view/argo-cd-up/9781098141998/" target="_blank" rel="noopener">Argo CD: Up and Running</a>
+         &mdash; A hands-on guide to GitOps with Argo CD, published by O&rsquo;Reilly.
+      </li>
+      
+    </ul>
+    
+  </div>
+  
+  <footer class="text-center text-sm pt-2 border-t border-gray-500 mt-6">
+  <p>Copyright 2022</p>
+  <p>
+
+  </p>
+</footer>
+</section>
+
+<script>
+  function openTab(tabId) {
+    const panel = document.getElementById(tabId);
+    if (!panel || !panel.classList.contains("tabcontent")) return false;
+    document.querySelectorAll(".tabcontent").forEach((el) => (el.style.display = "none"));
+    document.querySelectorAll(".tablinks").forEach((el) => {
+      el.classList.toggle("active", el.dataset.tab === tabId);
+      el.setAttribute("aria-selected", el.dataset.tab === tabId);
+    });
+    panel.style.display = "block";
+    history.replaceState(null, "", "#" + tabId);
+    return true;
+  }
+
+  if (!openTab(decodeURIComponent(location.hash.slice(1)))) {
+    const first = document.querySelector(".tablinks");
+    if (first) {
+      openTab(first.dataset.tab);
+      history.replaceState(null, "", location.pathname);
+    }
+  }
+  window.addEventListener("hashchange", () => openTab(decodeURIComponent(location.hash.slice(1))));
+</script>
+</main>
+  </body>
+</html>

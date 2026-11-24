@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Christian Hernandez</title>
-    <link>https://chernand.io/</link>
-    <description>Recent content on Christian Hernandez</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://chernand.io/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+	<channel>
+		<title>Christian Hernandez</title>
+		<link>https://chernand.io/</link>
+		<description>Recent content on Christian Hernandez</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 23 Nov 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://chernand.io/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Content</title>
+				<link>https://chernand.io/content/</link>
+				<pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>https://chernand.io/content/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

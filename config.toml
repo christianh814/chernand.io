@@ -14,7 +14,7 @@ disableKinds = ["taxonomy"]
     title = "chernand.io"
     author = "Christian Hernandez"
     description = "Summary"
-    copyright = "Copyright 2022"
+    copyright = "Copyright 2026"
     theme = "light" # `dark` or `light`
     useResources = false
 
@@ -71,31 +71,22 @@ disableKinds = ["taxonomy"]
         icon = "fab fa-twitter"
         url = "https://twitter.com/christianh814"
         site = "Twitter"
-
-        [[params.lt.list]]
-        icon = "fab fa-youtube"
-        url = "https://www.youtube.com/playlist?list=PLvuF36Z5jU-OL0A-j_Gfdx03K2iXg_k2C"
-        site = "Presentations and Keynotes"
-	
-        [[params.lt.list]]
-        icon = "fab fa-youtube"
-        url = "https://www.youtube.com/playlist?list=PLvuF36Z5jU-OHDLOT0KgN2x1s9CK8coac"
-        site = "Demos and Webinars"
 		
         [[params.lt.list]]
-        icon = "fas fa-file-alt"
-        url = "https://github.com/christianh814/vid-playlists/tree/main/blogs"
-        site = "Blogs"
-		
-        [[params.lt.list]]
-        icon = "fa fa-book"
-        url = "https://www.oreilly.com/library/view/argo-cd-up/9781098141998/"
-        site = "Books"
-	
+        ###icon = "fas fa-file-alt"
+        icon = "fas fa-folder-open"
+        url = "/content"
+        site = "Content"
 
     # Interests section
     [params.hobbies]
         title = "Certifications"
+        
+        [[params.hobbies.list]]
+        interest = "[Red Hat Certified Specialist](https://rhtapps.redhat.com/verify/?certId=110-326-071)"
+
+        [[params.hobbies.list]]
+        interest = "[Certified Kubernetes Administrator](https://www.credly.com/badges/deb85a40-1236-417c-82e5-8dff428771e8/public_url)"
 
         [[params.hobbies.list]]
         interest = "[NVIDIA Certified Professional: AI Operations](https://www.credly.com/badges/0acc664b-27b6-4267-a278-0e8db949a7ba/public_url)"
@@ -103,19 +94,13 @@ disableKinds = ["taxonomy"]
         [[params.hobbies.list]]
         interest = "[NVIDIA Certified Associate: AI Infrastructure and Operations](https://www.credly.com/badges/f319d5d0-37e0-41ca-9033-e539dcd23b5d/public_url)"
 
-        [[params.hobbies.list]]
-        interest = "[Red Hat Certified Specialist](https://rhtapps.redhat.com/verify/?certId=110-326-071)"
-
-        [[params.hobbies.list]]
-        interest = "[Certified Kubernetes Administrator](https://www.credly.com/badges/deb85a40-1236-417c-82e5-8dff428771e8/public_url)"
-
-	[[params.hobbies.list]]
+	    [[params.hobbies.list]]
         interest = "[GitOps at Scale Certified for Argo](https://www.credly.com/badges/7503b054-e1f2-4a91-b2ba-0fcbe6f0b652/public_url)"
 
-	[[params.hobbies.list]]
+	    [[params.hobbies.list]]
         interest = "[GitOps Fundamentals Certified for Argo](https://www.credly.com/badges/f19bb016-4d82-47ba-ae22-d230b97a00f6/public_url)"
 
-	[[params.hobbies.list]]
+	    [[params.hobbies.list]]
         interest = "[Introduction to Continuous Delivery and GitOps using Argo CD](https://www.credential.net/542a9965-1799-4f49-9f42-e9b0f37b8ecf)"
 
         [[params.hobbies.list]]
@@ -210,3 +195,63 @@ disableKinds = ["taxonomy"]
         [[params.skills.list]]
         skill = "**DevOps**"
         skillrating = "AWS and Azure cloud, automation with Ansible and Chef, Kubernetes, Helm, Argo CD, advanced CI/CD practices with GitOps"
+
+    # Content page (served at /content/). Each tab renders a bulleted list of items.
+    # Item fields: title, url, description (optional, markdown supported)
+    [params.content]
+        title = "Content"
+        intro = "A collection of the demos, webinars, presentations, blogs, and books I've worked on over the years. Most of it is centered around Kubernetes, GitOps, cloud-native networking, and security. Pick a tab below to browse."
+
+        [[params.content.tabs]]
+        name = "Demos, Webinars, and Presentations"
+
+            [[params.content.tabs.items]]
+            title = "Demos and Webinars Playlist"
+            url = "https://www.youtube.com/playlist?list=PLvuF36Z5jU-OHDLOT0KgN2x1s9CK8coac"
+            description = "YouTube playlist of my demos and webinars."
+
+            [[params.content.tabs.items]]
+            title = "Presentations and Keynotes Playlist"
+            url = "https://www.youtube.com/playlist?list=PLvuF36Z5jU-OL0A-j_Gfdx03K2iXg_k2C"
+            description = "YouTube playlist of conference talks and keynotes."
+
+            [[params.content.tabs.items]]
+            title = "GitOps Guide to the Galaxy"
+            url = "https://youtube.com/playlist?list=PLvuF36Z5jU-Ovx5TifqOAYDLu1aYyvcTW&si=VRzZq1ImTo3aON5h"
+            description = "Up until June of 2022, I was a co-host to a bi-weekly stream talking about GitOps, Argo CD, and Red Hat OpenShift (I've also returned as a guest from time to time)"
+
+        [[params.content.tabs]]
+        name = "Blogs"
+
+            [[params.content.tabs.items]]
+            title = "Cisco and Isovalent"
+            url = "https://isovalent.com/authors/christian-hernandez/"
+            description = "Blogs, Webinars, Demos, Workshops, and Videos for Isovalent by Cisco"
+
+            [[params.content.tabs.items]]
+            title = "Akuity"
+            url = "https://www.google.com/search?q=Christian+Hernandez+site%3Aakuity.io%2Fblog"
+            description = "Blogs I've written for the Akuity blog site."
+
+            [[params.content.tabs.items]]
+            title = "Red Hat Developers"
+            url = "https://developers.redhat.com/author/christian-hernandez"
+            description = "Blogs I've written for the Red Hat Developers site."
+
+            [[params.content.tabs.items]]
+            title = "Red Hat OpenShift"
+            url = "https://www.redhat.com/en/authors/christian-hernandez"
+            description = "Blogs I've written for the Red Hat site for OpenShift."
+
+        [[params.content.tabs]]
+        name = "Books"
+
+            [[params.content.tabs.items]]
+            title = "Argo CD: Up and Running"
+            url = "https://www.oreilly.com/library/view/argo-cd-up/9781098141998/"
+            description = "A hands-on guide to GitOps with Argo CD, published by O'Reilly."
+
+            [[params.content.tabs.items]]
+            title = "Path to GitOps"
+            url = "https://developers.redhat.com/e-books/path-gitops"
+            description = "This book outlines the tools, workflows, and structures to enable a complete GitOps workflow, published by Red Hat"
